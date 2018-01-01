@@ -1,0 +1,22 @@
+﻿body {
+    background-color: black;
+    color: white;
+   
+}
+
+h2 {
+    font-size:60px;
+    font-family:KaiTi;
+    font-feature-settings:"kern";
+    font-size-adjust:initial;
+}
+
+h3{
+    text-shadow: 20px 20px;
+}
+
+#borderimg1 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(/images/gay.png) 50 round;
+}
