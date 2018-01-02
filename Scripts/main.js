@@ -29,12 +29,12 @@ function setUserName() {
   var myName = prompt('Please enter your new skin.');
   localStorage.setItem('name', myName);
   myHeading.textContent = 'come get that cheese ' + myName;
-  if(localStorage.getItem('name')==='pizza'||'Pizza'){
+  if(localStorage.getItem('name')==='pizza'){
     window.alert('***THE FBI HAS BEEN NOTIFIED***');
     window.alert('***THE FBI HAS BEEN NOTIFIED***');
     window.alert('***THE FBI HAS BEEN NOTIFIED***');
-  }
-  if(localStorage.getItem('name')==='nolan'||'Nolan'){
+  }else
+  if(localStorage.getItem('name')==='nolan' || localStorage.getItem('name')==='Nolan'){
     window.alert('thats the gayest thing ive ever heard');
   }
 }
