@@ -1,7 +1,7 @@
 // image changer on click for the img element with id ='yung'
 var myImage = document.getElementById('yung');
 
-myImage.onclick = function() {
+myImage.onmousemove = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/yung.png') {
       myImage.setAttribute ('src','images/bodyparts.jpg');
@@ -46,5 +46,6 @@ if(!localStorage.getItem('name')) {
 myButton.onclick = function() {
   setUserName();
 }
+
 
 
