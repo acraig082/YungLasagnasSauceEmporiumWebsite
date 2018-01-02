@@ -1,9 +1,9 @@
-var myImage = document.getElementById('yes');
+var myImage = document.getElementById('yung');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/yung.png') {
-    myImage.setAttribute ('src','images/gay.png');
+    myImage.setAttribute ('src','images/bodyparts.jpg');
     } else {
       myImage.setAttribute ('src','images/yung.png');
     }
