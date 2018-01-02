@@ -34,6 +34,9 @@ function setUserName() {
     window.alert('***THE FBI HAS BEEN NOTIFIED***');
     window.alert('***THE FBI HAS BEEN NOTIFIED***');
   }
+  if(localStorage.getItem('name')==='nolan'){
+    window.alert('thats the gayest thing ive ever heard');
+  }
 }
 
 if(!localStorage.getItem('name')) {
